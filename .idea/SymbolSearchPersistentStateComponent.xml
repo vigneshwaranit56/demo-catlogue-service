@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SymbolSearchPersistentStateComponent">
+    <option name="entries">
+      <map>
+        <entry key="$PROJECT_DIR$/src/main/java/com/example/catalog/controller/CatalogController.java">
+          <value>
+            <FileEntry>
+              <option name="meta">
+                <FileMeta>
+                  <option name="timeStamp" value="1770969394000" />
+                  <option name="hash" value="1610084081" />
+                </FileMeta>
+              </option>
+              <option name="records">
+                <list>
+                  <SymbolRecordBean>
+                    <option name="name" value="CatalogController" />
+                    <option name="kind" value="CLASS" />
+                    <option name="filePath" value="$PROJECT_DIR$/src/main/java/com/example/catalog/controller/CatalogController.java" />
+                    <option name="startLine" value="12" />
+                    <option name="endLine" value="45" />
+                    <option name="endCharacter" value="1" />
+                    <option name="language" value="java" />
+                  </SymbolRecordBean>
+                  <SymbolRecordBean>
+                    <option name="name" value="service" />
+                    <option name="kind" value="VARIABLE" />
+                    <option name="filePath" value="$PROJECT_DIR$/src/main/java/com/example/catalog/controller/CatalogController.java" />
+                    <option name="startLine" value="16" />
+                    <option name="startCharacter" value="33" />
+                    <option name="endLine" value="16" />
+                    <option name="endCharacter" value="40" />
+                    <option name="language" value="java" />
+                  </SymbolRecordBean>
+                  <SymbolRecordBean>
+                    <option name="name" value="CatalogController" />
+                    <option name="kind" value="CONSTRUCTOR" />
+                    <option name="filePath" value="$PROJECT_DIR$/src/main/java/com/example/catalog/controller/CatalogController.java" />
+                    <option name="startLine" value="18" />
+                    <option name="startCharacter" value="4" />
+                    <option name="endLine" value="20" />
+                    <option name="endCharacter" value="5" />
+                    <option name="language" value="java" />
+                  </SymbolRecordBean>
+                  <SymbolRecordBean>
+                    <option name="name" value="create" />
+                    <option name="kind" value="METHOD" />
+                    <option name="filePath" value="$PROJECT_DIR$/src/main/java/com/example/catalog/controller/CatalogController.java" />
+                    <option name="startLine" value="22" />
+                    <option name="startCharacter" value="4" />
+                    <option name="endLine" value="28" />
+                    <option name="endCharacter" value="5" />
+                    <option name="language" value="java" />
+                  </SymbolRecordBean>
+                  <SymbolRecordBean>
+                    <option name="name" value="created" />
+                    <option name="kind" value="VARIABLE" />
+                    <option name="filePath" value="$PROJECT_DIR$/src/main/java/com/example/catalog/controller/CatalogController.java" />
+                    <option name="startLine" value="24" />
+                    <option name="startCharacter" value="16" />
+                    <option name="endLine" value="24" />
+                    <option name="endCharacter" value="49" />
+                    <option name="language" value="java" />
+                  </SymbolRecordBean>
+                  <SymbolRecordBean>
+                    <option name="name" value="getAll" />
+                    <option name="kind" value="METHOD" />
+                    <option name="filePath" value="$PROJECT_DIR$/src/main/java/com/example/catalog/controller/CatalogController.java" />
+                    <option name="startLine" value="30" />
+                    <option name="startCharacter" value="4" />
+                    <option name="endLine" value="33" />
+                    <option name="endCharacter" value="5" />
+                    <option name="language" value="java" />
+                  </SymbolRecordBean>
+                  <SymbolRecordBean>
+                    <option name="name" value="getById" />
+                    <option name="kind" value="METHOD" />
+                    <option name="filePath" value="$PROJECT_DIR$/src/main/java/com/example/catalog/controller/CatalogController.java" />
+                    <option name="startLine" value="35" />
+                    <option name="startCharacter" value="4" />
+                    <option name="endLine" value="38" />
+                    <option name="endCharacter" value="5" />
+                    <option name="language" value="java" />
+                  </SymbolRecordBean>
+                  <SymbolRecordBean>
+                    <option name="name" value="delete" />
+                    <option name="kind" value="METHOD" />
+                    <option name="filePath" value="$PROJECT_DIR$/src/main/java/com/example/catalog/controller/CatalogController.java" />
+                    <option name="startLine" value="40" />
+                    <option name="startCharacter" value="4" />
+                    <option name="endLine" value="44" />
+                    <option name="endCharacter" value="5" />
+                    <option name="language" value="java" />
+                  </SymbolRecordBean>
+                </list>
+              </option>
+            </FileEntry>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/example/catalog/entity/Catalog.java">
+          <value>
+            <FileEntry>
+              <option name="meta">
+                <FileMeta>
+                  <option name="timeStamp" value="1770969394000" />
+                  <option name="hash" value="-1032260583" />
+                </FileMeta>
+              </option>
+              <option name="records">
+                <list>
+                  <SymbolRecordBean>
+                    <option name="name" value="Catalog" />
+                    <option name="kind" value="CLASS" />
+                    <option name="filePath" value="$PROJECT_DIR$/src/main/java/com/example/catalog/entity/Catalog.java" />
+                    <option name="startLine" value="6" />
+                    <option name="endLine" value="28" />
+                    <option name="endCharacter" value="1" />
+                    <option name="language" value="java" />
+                  </SymbolRecordBean>
+                  <SymbolRecordBean>
+                    <option name="name" value="id" />
+                    <option name="kind" value="VARIABLE" />
+                    <option name="filePath" value="$PROJECT_DIR$/src/main/java/com/example/catalog/entity/Catalog.java" />
+                    <option name="startLine" value="12" />
+                    <option name="startCharacter" value="17" />
+                    <option name="endLine" value="12" />
+                    <option name="endCharacter" value="19" />
+                    <option name="language" value="java" />
+                  </SymbolRecordBean>
+                  <SymbolRecordBean>
+                    <option name="name" value="name" />
+                    <option name="kind" value="VARIABLE" />
+                    <option name="filePath" value="$PROJECT_DIR$/src/main/java/com/example/catalog/entity/Catalog.java" />
+                    <option name="startLine" value="16" />
+                    <option name="startCharacter" value="19" />
+                    <option name="endLine" value="16" />
+                    <option name="endCharacter" value="23" />
+                    <option name="language" value="java" />
+                  </SymbolRecordBean>
+                  <SymbolRecordBean>
+                    <option name="name" value="description" />
+                    <option name="kind" value="VARIABLE" />
+                    <option name="filePath" value="$PROJECT_DIR$/src/main/java/com/example/catalog/entity/Catalog.java" />
+                    <option name="startLine" value="18" />
+                    <option name="startCharacter" value="19" />
+                    <option name="endLine" value="18" />
+                    <option name="endCharacter" value="30" />
+                    <option name="language" value="java" />
+                  </SymbolRecordBean>
+                  <SymbolRecordBean>
+                    <option name="name" value="getId" />
+                    <option name="kind" value="METHOD" />
+                    <option name="filePath" value="$PROJECT_DIR$/src/main/java/com/example/catalog/entity/Catalog.java" />
+                    <option name="startLine" value="20" />
+                    <option name="startCharacter" value="4" />
+                    <option name="endLine" value="20" />
+                    <option name="endCharacter" value="38" />
+                    <option name="language" value="java" />
+                  </SymbolRecordBean>
+                  <SymbolRecordBean>
+                    <option name="name" value="setId" />
+                    <option name="kind" value="METHOD" />
+                    <option name="filePath" value="$PROJECT_DIR$/src/main/java/com/example/catalog/entity/Catalog.java" />
+                    <option name="startLine" value="21" />
+                    <option name="startCharacter" value="4" />
+                    <option name="endLine" value="21" />
+                    <option name="endCharacter" value="48" />
+                    <option name="language" value="java" />
+                  </SymbolRecordBean>
+                  <SymbolRecordBean>
+                    <option name="name" value="getName" />
+                    <option name="kind" value="METHOD" />
+                    <option name="filePath" value="$PROJECT_DIR$/src/main/java/com/example/catalog/entity/Catalog.java" />
+                    <option name="startLine" value="23" />
+                    <option name="startCharacter" value="4" />
+                    <option name="endLine" value="23" />
+                    <option name="endCharacter" value="44" />
+                    <option name="language" value="java" />
+                  </SymbolRecordBean>
+                  <SymbolRecordBean>
+                    <option name="name" value="setName" />
+                    <option name="kind" value="METHOD" />
+                    <option name="filePath" value="$PROJECT_DIR$/src/main/java/com/example/catalog/entity/Catalog.java" />
+                    <option name="startLine" value="24" />
+                    <option name="startCharacter" value="4" />
+                    <option name="endLine" value="24" />
+                    <option name="endCharacter" value="58" />
+                    <option name="language" value="java" />
+                  </SymbolRecordBean>
+                  <SymbolRecordBean>
+                    <option name="name" value="getDescription" />
+                    <option name="kind" value="METHOD" />
+                    <option name="filePath" value="$PROJECT_DIR$/src/main/java/com/example/catalog/entity/Catalog.java" />
+                    <option name="startLine" value="26" />
+                    <option name="startCharacter" value="4" />
+                    <option name="endLine" value="26" />
+                    <option name="endCharacter" value="58" />
+                    <option name="language" value="java" />
+                  </SymbolRecordBean>
+                  <SymbolRecordBean>
+                    <option name="name" value="setDescription" />
+                    <option name="kind" value="METHOD" />
+                    <option name="filePath" value="$PROJECT_DIR$/src/main/java/com/example/catalog/entity/Catalog.java" />
+                    <option name="startLine" value="27" />
+                    <option name="startCharacter" value="4" />
+                    <option name="endLine" value="27" />
+                    <option name="endCharacter" value="86" />
+                    <option name="language" value="java" />
+                  </SymbolRecordBean>
+                </list>
+              </option>
+            </FileEntry>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/example/catalog/exception/GlobalExceptionHandler.java">
+          <value>
+            <FileEntry>
+              <option name="meta">
+                <FileMeta>
+                  <option name="timeStamp" value="1770969394000" />
+                  <option name="hash" value="-1155917601" />
+                </FileMeta>
+              </option>
+              <option name="records">
+                <list>
+                  <SymbolRecordBean>
+                    <option name="name" value="GlobalExceptionHandler" />
+                    <option name="kind" value="CLASS" />
+                    <option name="filePath" value="$PROJECT_DIR$/src/main/java/com/example/catalog/exception/GlobalExceptionHandler.java" />
+                    <option name="startLine" value="12" />
+                    <option name="endLine" value="42" />
+                    <option name="endCharacter" value="1" />
+                    <option name="language" value="java" />
+                  </SymbolRecordBean>
+                  <SymbolRecordBean>
+                    <option name="name" value="handleNotFound" />
+                    <option name="kind" value="METHOD" />
+                    <option name="filePath" value="$PROJECT_DIR$/src/main/java/com/example/catalog/exception/GlobalExceptionHandler.java" />
+                    <option name="startLine" value="15" />
+                    <option name="startCharacter" value="4" />
+                    <option name="endLine" value="18" />
+                    <option name="endCharacter" value="5" />
+                    <option name="language" value="java" />
+                  </SymbolRecordBean>
+                  <SymbolRecordBean>
+                    <option name="name" value="handleValidation" />
+                    <option name="kind" value="METHOD" />
+                    <option name="filePath" value="$PROJECT_DIR$/src/main/java/com/example/catalog/exception/GlobalExceptionHandler.java" />
+                    <option name="startLine" value="20" />
+                    <option name="startCharacter" value="4" />
+                    <option name="endLine" value="27" />
+                    <option name="endCharacter" value="5" />
+                    <option name="language" value="java" />
+                  </SymbolRecordBean>
+                  <SymbolRecordBean>
+                    <option name="name" value="errors" />
+                    <option name="kind" value="VARIABLE" />
+                    <option name="filePath" value="$PROJECT_DIR$/src/main/java/com/example/catalog/exception/GlobalExceptionHandler.java" />
+                    <option name="startLine" value="22" />
+                    <option name="startCharacter" value="28" />
+                    <option name="endLine" value="22" />
+                    <option name="endCharacter" value="52" />
+                    <option name="language" value="java" />
+                  </SymbolRecordBean>
+                  <SymbolRecordBean>
+                    <option name="name" value="handleGeneric" />
+                    <option name="kind" value="METHOD" />
+                    <option name="filePath" value="$PROJECT_DIR$/src/main/java/com/example/catalog/exception/GlobalExceptionHandler.java" />
+                    <option name="startLine" value="29" />
+                    <option name="startCharacter" value="4" />
+                    <option name="endLine" value="32" />
+                    <option name="endCharacter" value="5" />
+                    <option name="language" value="java" />
+                  </SymbolRecordBean>
+                  <SymbolRecordBean>
+                    <option name="name" value="buildResponse" />
+                    <option name="kind" value="METHOD" />
+                    <option name="filePath" value="$PROJECT_DIR$/src/main/java/com/example/catalog/exception/GlobalExceptionHandler.java" />
+                    <option name="startLine" value="34" />
+                    <option name="startCharacter" value="4" />
+                    <option name="endLine" value="41" />
+                    <option name="endCharacter" value="5" />
+                    <option name="language" value="java" />
+                  </SymbolRecordBean>
+                  <SymbolRecordBean>
+                    <option name="name" value="body" />
+                    <option name="kind" value="VARIABLE" />
+                    <option name="filePath" value="$PROJECT_DIR$/src/main/java/com/example/catalog/exception/GlobalExceptionHandler.java" />
+                    <option name="startLine" value="35" />
+                    <option name="startCharacter" value="28" />
+                    <option name="endLine" value="35" />
+                    <option name="endCharacter" value="50" />
+                    <option name="language" value="java" />
+                  </SymbolRecordBean>
+                </list>
+              </option>
+            </FileEntry>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/example/catalog/exception/ResourceNotFoundException.java">
+          <value>
+            <FileEntry>
+              <option name="meta">
+                <FileMeta>
+                  <option name="timeStamp" value="1770969394000" />
+                  <option name="hash" value="1305271122" />
+                </FileMeta>
+              </option>
+              <option name="records">
+                <list>
+                  <SymbolRecordBean>
+                    <option name="name" value="ResourceNotFoundException" />
+                    <option name="kind" value="CLASS" />
+                    <option name="filePath" value="$PROJECT_DIR$/src/main/java/com/example/catalog/exception/ResourceNotFoundException.java" />
+                    <option name="startLine" value="3" />
+                    <option name="endLine" value="7" />
+                    <option name="endCharacter" value="1" />
+                    <option name="language" value="java" />
+                  </SymbolRecordBean>
+                  <SymbolRecordBean>
+                    <option name="name" value="ResourceNotFoundException" />
+                    <option name="kind" value="CONSTRUCTOR" />
+                    <option name="filePath" value="$PROJECT_DIR$/src/main/java/com/example/catalog/exception/ResourceNotFoundException.java" />
+                    <option name="startLine" value="4" />
+                    <option name="startCharacter" value="4" />
+                    <option name="endLine" value="6" />
+                    <option name="endCharacter" value="5" />
+                    <option name="language" value="java" />
+                  </SymbolRecordBean>
+                </list>
+              </option>
+            </FileEntry>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/example/catalog/repository/CatalogRepository.java">
+          <value>
+            <FileEntry>
+              <option name="meta">
+                <FileMeta>
+                  <option name="timeStamp" value="1770969394000" />
+                  <option name="hash" value="823770149" />
+                </FileMeta>
+              </option>
+              <option name="records">
+                <list>
+                  <SymbolRecordBean>
+                    <option name="name" value="CatalogRepository" />
+                    <option name="kind" value="INTERFACE" />
+                    <option name="filePath" value="$PROJECT_DIR$/src/main/java/com/example/catalog/repository/CatalogRepository.java" />
+                    <option name="startLine" value="6" />
+                    <option name="endLine" value="7" />
+                    <option name="endCharacter" value="1" />
+                    <option name="language" value="java" />
+                  </SymbolRecordBean>
+                </list>
+              </option>
+            </FileEntry>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
