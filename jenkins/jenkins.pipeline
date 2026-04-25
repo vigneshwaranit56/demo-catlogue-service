@@ -1,0 +1,131 @@
+pipeline {
+
+    agent any
+
+    tools {
+        maven 'maven-3'
+    }
+    environment {
+        APP_REPO = "https://github.com/vigneshwaranit56/demo-catlogue-service.git"
+        GITOPS_REPO = "https://github.com/vigneshwaranit56/demo-gitops.git"
+
+        IMAGE_NAME = "docker.io/vigneshwaran56/demo-cataloue-sevice"
+        IMAGE_TAG = "${BUILD_NUMBER}"
+    }
+
+    stages {
+        stage('Clean Workspace') {
+            steps {
+                deleteDir()
+            }
+        }
+        stage('Checkout App Repo') {
+            steps {
+                git branch: 'main',
+                    credentialsId: 'github-creds',
+                    url: "${APP_REPO}"
+            }
+        }
+        stage('Debug') {
+            steps {
+                sh 'pwd'
+                sh 'ls -la'
+                sh 'find . -name pom.xml'
+            }
+        }
+        stage('Maven Build') {
+            steps {
+                sh 'mvn clean package -DskipTests'
+            }
+        }
+
+        stage('SonarQube Scan') {
+            steps {
+                withSonarQubeEnv('sonar') {
+                    sh 'mvn sonar:sonar'
+                }
+            }
+        }
+
+        // stage('Quality Gate') {
+        //     steps {
+        //         timeout(time: 2, unit: 'MINUTES') {
+        //             waitForQualityGate abortPipeline: true
+        //         }
+        //     }
+        // }
+
+        // stage('Publish Artifact to JFrog') {
+        //     steps {
+        //         withCredentials([usernamePassword(
+        //             credentialsId: 'jfrog-creds',
+        //             usernameVariable: 'JFROG_USER',
+        //             passwordVariable: 'JFROG_PASS')]) {
+
+        //             sh """
+        //             mvn deploy \
+        //             -DaltDeploymentRepository=artifactory::default::http://localhost:8082/artifactory/libs-release-local \
+        //             -Dusername=$JFROG_USER \
+        //             -Dpassword=$JFROG_PASS
+        //             """
+        //         }
+        //     }
+        // }
+
+        stage('Check Docker') {
+            steps {
+                sh 'docker version'
+            }
+        }
+
+        stage('Docker Build') {
+            steps {
+                sh "docker build -t ${IMAGE_NAME}:${IMAGE_TAG} ."
+            }
+        }
+
+        stage('Docker Push to DockerHub') {
+            steps {
+                withCredentials([usernamePassword(
+                    credentialsId: 'dockerhub-creds',
+                    usernameVariable: 'DOCKER_USER',
+                    passwordVariable: 'DOCKER_PASS')]) {
+
+                    sh """
+                    echo $DOCKER_PASS | docker login -u $DOCKER_USER --password-stdin
+                    docker push ${IMAGE_NAME}:${IMAGE_TAG}
+                    """
+                }
+            }
+        }
+
+        stage('Update GitOps Repo') {
+            steps {
+                dir('gitops') {
+
+                    git branch: 'main',
+                        credentialsId: 'github-creds',
+                        url: "${GITOPS_REPO}"
+
+                   withCredentials([usernamePassword(
+                        credentialsId: 'github-creds',
+                        usernameVariable: 'GIT_USER',
+                        passwordVariable: 'GIT_PASS')]) {
+
+                        sh '''
+                        sed -i 's/tag:.*/tag: "'${IMAGE_TAG}'"/' apps/demo-app/values.yaml
+
+                        git config user.email "jenkins@local"
+                        git config user.name "jenkins"
+
+                        git add .
+                        git commit -m "Update image tag to ${IMAGE_TAG}"
+
+                        git push https://$GIT_USER:$GIT_PASS@github.com/vigneshwaranit56/demo-gitops.git main
+                        '''
+                    }
+                }
+            }
+        }
+    }
+}
